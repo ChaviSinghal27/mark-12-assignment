@@ -1,0 +1,95 @@
+:root{
+    --primary-color:#10b981;
+   
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+header > h1 {
+    text-align: left;
+    color: white;
+}
+
+nav {
+    text-align: right;
+    font-size: large;
+    display: block;
+}
+
+nav > a  {
+    padding: 0rem 0.5rem;
+} 
+
+main {
+margin: 0 0 7rem;
+}
+
+main h1 {
+    margin: 1rem;
+}
+
+.input-label {
+    font-size: larger;
+    color:var(--primary-color);
+    width: 256px;
+    
+    
+}
+
+.sides {
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+ 
+    max-width: 258px;
+    width: 100%;
+}
+
+#check-hypotenuse {
+    background-color: var(--primary-color);
+    border:none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-size: large;
+    display: block;
+    margin: 1rem auto;
+}
+
+#output {
+    font-size: x-large;
+    margin: 1rem;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    font-size: large;
+    text-align: center;
+}
+
+
+.footer-list {
+    margin: 1rem;
+}
+
+ a , li {
+    display: inline;
+    color: white;
+    text-decoration: none;
+
+
+}
+footer a {
+    text-decoration: none;
+    color: var(--primary-color);
+}

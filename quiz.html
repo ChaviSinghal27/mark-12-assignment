@@ -5,9 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>QUIZ FORM</title>
+    <link href="./style.css" rel="stylesheet">
 </head>
 <body>
+    <header>
+        <h1>Fun With Triangles</h1>
+        <nav>
+            <a href="./hyptenuse.html">calculate hypotenuse</a>
+            <a href="./quiz.html">QUIZ</a>
+            <a href="istriangle.html">IS TRIANGLE</a>
+            <a href="area.html">AREA OF TRIANGLE</a>
+        </nav>
+    </header>
+   
     <h1>Triangle Quiz</h1>
+    <main class="quiz-main">
     <form id="quiz-form">
         <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
@@ -23,10 +35,34 @@
             <label><input type="radio" name="question2" value="acute" />acute</label>
             <label><input type="radio" name="question2" value="right angled" />right angled</label>
         </div>
+        <div class="question-container">
+            <p>A triangle can have</p>
+            <label><input type="radio" name="question3" value="one right angle" />one right angle</label>
+            <label><input type="radio" name="question3" value="Two right angle" />Two right angle</label>
+        </div>
+        <div class="question-container">
+            <p>Which of the following can form a right angled triangle</p>
+            <label><input type="radio" name="question4" value="14, 15, 26" />14, 15, 26</label>
+            <label><input type="radio" name="question4" value="12, 16, 20" />12, 16, 20</label>
+        </div>
+        <div class="question-container">
+            <p>Which of the following triangle are always similar?</p>
+            <label><input type="radio" name="question5" value="Equilateral triangle" />Equilateral triangle</label>
+            <label><input type="radio" name="question5" value="Isosceles triangle" />Isosceles triangle</label>
+        </div>
 </form>
 
         <button id="submit-btn">submit form</button>
         <div id="output"></div>
+        <footer>
+            <p>© | 2022 | chavi Singhal</p>
+            <ul class="footer-list">
+                <li><a class="link" href="https://twitter.com/ChaviSinghal1">TWITTER</a></li>
+                <li><a class="link" href="https://github.com/ChaviSinghal27">GITHUB</a></li>
+                <li><a class="link" href="https://www.linkedin.com/in/chavi-singhal/">LINKEDIN</a></li>
+            </ul>
+        </main>
+        </footer>
 </body>
         <script src="./quiz.js"></script>
 </html>
