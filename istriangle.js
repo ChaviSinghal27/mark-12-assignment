@@ -1,5 +1,5 @@
-const angleInput = document.querySelectorAll(".angle");
-const checkButton = document.querySelector("#check-button");
+const angleInput = document.querySelectorAll(".input-el");
+const checkButton = document.querySelector("#submit-btn");
 const outputEl =document.querySelector("#output");
 
 

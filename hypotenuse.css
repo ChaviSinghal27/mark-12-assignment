@@ -39,11 +39,16 @@ main h1 {
     font-size: larger;
     color:var(--primary-color);
     width: 256px;
-    
-    
+   
 }
 
-.sides {
+.input-label p {
+    font-size: larger;
+    margin: 0.5rem;
+}
+
+
+.input-el {
     padding: 0.5rem 1rem;
     margin: 1rem;
     border: 2px solid var(--primary-color);
@@ -53,7 +58,7 @@ main h1 {
     width: 100%;
 }
 
-#check-hypotenuse {
+#submit-btn {
     background-color: var(--primary-color);
     border:none;
     padding: 0.5rem 1rem;
@@ -66,6 +71,19 @@ main h1 {
 #output {
     font-size: x-large;
     margin: 1rem;
+}
+
+.quiz-main {
+    margin: 2rem auto;
+    width: 90%;
+    text-align: center;
+}
+
+.question-container {
+    width: 85%;
+    margin: 1rem auto;
+    font-size: larger;
+    padding: 1rem 0;
 }
 
 footer {

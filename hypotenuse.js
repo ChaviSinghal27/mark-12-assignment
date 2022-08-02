@@ -1,5 +1,5 @@
-const sidesInput = document.querySelectorAll(".sides");
-const checkButton = document.querySelector("#check-hypotenuse");
+const sidesInput = document.querySelectorAll(".input-el");
+const checkButton = document.querySelector("#submit-btn");
 const outputEl = document.querySelector("#output");
 
 checkButton.addEventListener("click", calculateHypotenuse);

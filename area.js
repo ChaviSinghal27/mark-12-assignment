@@ -1,5 +1,5 @@
-const userInput = document.querySelectorAll(".height-base-input");
-const calculateAreaBtn = document.querySelector("#claculate-area");
+const userInput = document.querySelectorAll(".input-el");
+const calculateAreaBtn = document.querySelector("#submit-btn");
 const outputEl = document.querySelector("#output");
 
 calculateAreaBtn.addEventListener("click", calculateArea);
